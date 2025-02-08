@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChinaFun TF</title>  <!-- Tytuł zmieniony -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chińskie Ćwiczenie</h1>
+        <p>Kliknij "Nowe słowa", aby otrzymać losowe chińskie słowa i spróbuj ułożyć poprawne zdanie.</p>
+        <button onclick="generateWords()">Nowe słowa</button>
+        <p id="words"></p>
+        <input type="text" id="sentenceInput" placeholder="Wpisz zdanie">
+        <button onclick="checkSentence()">Sprawdź</button>
+        <p id="result"></p>
+        <button onclick="showHint()">Podpowiedź</button>
+        <p id="hint"></p>
+    </div>
+
+    <footer>
+        <p>Credits: By TF</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
